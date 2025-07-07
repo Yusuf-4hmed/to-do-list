@@ -1,0 +1,53 @@
+.to-do-container {
+    margin: 0px auto ;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.to-do-input-container {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.to-do-input {
+    height: 40px;
+    width: 450px;
+}
+
+.add-button {
+    height: 45px;
+    width: 50px;
+    font-size: 30px;
+}
+
+.to-do-list-container {
+    width: 540px;
+    border: 1px solid black;
+    height: 620px;
+    padding: 0px;
+}
+
+.to-do {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.delete {
+    margin-left: auto;
+}
+
+.done {
+    text-decoration: line-through;
+}
